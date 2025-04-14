@@ -1,17 +1,20 @@
 # Naya_Final_project
 classification issue
-inputs: 
-personal data
-sensors data
+## inputs: 
+ - personal data
+ - sensors data
 
-output:
-moving activities, that expexted result error?
+## possible model outputs:
+ - moving activities
+ - gender
 
-is data enough for classification model?
 
-optional - data optimization reduce peple trials
+## Open questions:
+ - that expexted result error?
+ - is data enough for classification model?
+ - check for best model models for the task
 
-check for best model models for the task
+optional - data optimization: reduce people and/or trials
 
 feature management reduce features
 

@@ -20,16 +20,7 @@ It is collected with an iPhone 6s kept in the participant's front pocket using S
  - Short trials: those with number 11 to 16 that are around 30 seconds to 1 minutes duration.
 
 ## possible model outputs:
- - moving activities
-  - dws: downstairs, ups: upstairs
-
-sit: sitting
-
-std: standing
-
-wlk: walking
-
-jog: joggingdownstairs, upstairs, walking, jogging, sitting, and standing
+ - moving activities: dws: downstairs, ups: upstairs, sit: sitting, std: standing, wlk: walking, jog: jogging
  - gender - male, female
 
 !! classification issue

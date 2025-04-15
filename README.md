@@ -35,3 +35,17 @@ feature management reduce features
 
 create model with no optimization and get results. after this optimize data, reduse peple sensors trials and tryto get the same results
 
+### Results for full data(all 1.4b rows)<br />
+features = ['attitude.roll','attitude.pitch','attitude.yaw','gravity.x','gravity.y','gravity.z','rotationRate.x','rotationRate.y','rotationRate.z','userAcceleration.x',
+'userAcceleration.y','userAcceleration.z']<br />
+target = ['activity'] 
+```
+Epoch 1 | Train Loss: 0.1765
+Epoch 2 | Train Loss: 0.0399
+Epoch 3 | Train Loss: 0.0210
+Epoch 4 | Train Loss: 0.0139
+Epoch 5 | Train Loss: 0.0091
+
+Test Loss: 1.7378
+```
+

@@ -57,5 +57,20 @@ Loss: 2.8400439987308346e-05
 Running Loss: 44.33992810034397
 ```
 
+```
+Output shape: torch.Size([64, 6])
+Target shape: torch.Size([64])
+Unique labels: tensor([0, 1, 2, 3, 4, 5], device='cuda:0')
+First output logits: tensor([-0.9933, 10.1579, -1.6065, -8.0189, -3.6644, -2.1472], device='cuda:0',
+       grad_fn=<SelectBackward0>)
+-> Epoch 1/2 | Train Loss: 0.1054 | Val Loss: 0.728845 | Validation Accuracy: 0.8807
+Output shape: torch.Size([64, 6])
+Target shape: torch.Size([64])
+Unique labels: tensor([0, 1, 2, 3, 4, 5], device='cuda:0')
+First output logits: tensor([-2.1038, -3.0749, -1.6011,  7.7328,  0.4946, -2.3033], device='cuda:0',
+       grad_fn=<SelectBackward0>)
+-> Epoch 2/2 | Train Loss: 0.0143 | Val Loss: 0.905113 | Validation Accuracy: 0.8566
+```
+
 
 
